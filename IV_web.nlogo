@@ -14,6 +14,7 @@ ability
 achievement
 ses
 sch_va
+class_size
 ]
 
 directed-link-breed [enrollments enrollment]
@@ -121,7 +122,7 @@ end
 
 to export-init
   set export-file "student-data.csv"
-  let header "tick,who,ability,ses,achievement,school, school_value_added\n"
+  let header "tick,who,ability,ses,achievement,school, school_value_added, class_size\n"
     set export-buffer header
 end
 
@@ -129,10 +130,11 @@ to export-append
   ask students [
     let sch one-of [other-end] of my-out-enrollments
       set sch_va  [value_added] of sch
+      set class_size count [links] of sch
   ]
     let rows but-last but-first
    (word [(word ticks "," who "," ability "," ses "," achievement "," [who] of one-of [other-end] of my-out-enrollments ","
-                  sch_va " \n")] of students)
+                  sch_va "," class_size " \n")] of students)
     set export-buffer word export-buffer remove " " rows
 
 end
