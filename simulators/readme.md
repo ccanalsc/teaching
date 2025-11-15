@@ -9,7 +9,9 @@ Puedes visualizar este simulador directamente en el siguiente link: https://raw.
 IV_web.html: Simulador diseñado para aprender sobre variables instrumentales. Actividad guiada disponible en: activities/ICE3202/Tema-4---IV.html (Material correspondiente al curso Métodos Cuantitativos 2, Ingeniería Comercial, UOH).
 Puedes visualizar este simulador directamente en el siguiente link: https://raw.githack.com/ccanalsc/teaching/9df2f13f52deae8800533f6d094a3c453055e40d/simulators/Simulador%20RCT_web.html
 
-
+RDD_web.html: Simulador diseñado para aprender sobre Diseños de Regresión Discontinua. Actividad guiada disponible en: activities/ICE3202/Tema-5---RDD.html (Material correspondiente al curso Métodos Cuantitativos 2, Ingeniería Comercial, UOH).
+Puedes visualizar este simulador directamente en el siguiente link:
+https://raw.githack.com/ccanalsc/teaching/da124fde9a5f41ce3f7ffda495bd6f2af192b09e/simulators/RDD_web.html
 
 
 
